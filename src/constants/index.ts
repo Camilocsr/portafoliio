@@ -15,10 +15,7 @@ import {
   git,
   figma,
   docker,
-  meta,
   Logo_universitaria,
-  tesla,
-  shopify,
   threejs,
   project1,
   project2,
@@ -33,6 +30,7 @@ import {
   linkedin,
   twitter,
   github,
+  AWS,
 } from "../assets";
 
 // Navbar Links
@@ -128,13 +126,17 @@ export const TECHNOLOGIES = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: AWS,
+  },
 ] as const;
 
 // Experiences
 export const EXPERIENCES = [
   {
     "title": "Desarrollador de Inteligencia Artificial y Automatización.",
-    "company_name": "Institucion Universitaria de Colombia",
+    "company_name": "Institución Universitaria de Colombia",
     "icon": Logo_universitaria,
     "iconBg": "#383E56",
     "date": "Marzo 2024 - Noviembre 2024",
@@ -151,7 +153,7 @@ export const EXPERIENCES = [
     "company_name": "Institución Universitaria de Colombia",
     "icon": Logo_universitaria,
     "iconBg": "#383E56",
-    "date": "Febrero 2024 - Noviembre 2024",
+    "date": "Diciembre 2023 - Marzo 2024",
     "points": [
       "Desarrollo de dos videojuegos educativos en realidad virtual para Meta Quest 2 y 3: un simulador de disección veterinaria y una plataforma de aprendizaje de idiomas con avatar interactivo, utilizando Unity y C#.",
       "Implementación de arquitectura cliente-servidor con WebSockets, backend en .NET, e integración de servicios AWS (EC2, S3, Lambda, Polly) y ChatGPT 3.5.",
@@ -159,32 +161,6 @@ export const EXPERIENCES = [
       "Colaboración con expertos en veterinaria y lingüistas para garantizar precisión educativa, implementando sistemas de seguimiento y evaluación del aprendizaje en entornos VR.",
       "Gestión completa del ciclo de desarrollo, incluyendo optimización específica para Meta Quest, documentación técnica y mantenimiento continuo de ambas plataformas VR."
     ]
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
   },
 ] as const;
 
