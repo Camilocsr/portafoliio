@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" height="360" width="320">
+  <!-- Fondo abstracto que simula un control de videojuego -->
+  <g>
+    <path d="M20.961 227.22l3.726 4.658-1.863-6.056c-0.466-2.795-3.726 0.466-1.863 1.398M25.153 224.425c1.397 2.329 2.795 4.658 2.795 6.987 0 3.261 2.795 4.658 5.123 5.589-3.261-3.726-5.124-13.974-7.918-12.576M204.017 26.929c7.918 0 15.371-0.932 23.756 0.931 20.495 5.124 37.729 15.371 49.374 29.811l32.606 52.169c1.397 13.042 4.192 27.482 3.726 43.319" 
+          fill="#804dee" stroke="#6535be" stroke-width="2"/>
+  </g>
+  
+  <!-- Control de videojuego estilizado -->
+  <g transform="translate(100, 120)">
+    <!-- Forma base del control -->
+    <path d="M50 0 C20 0 0 20 0 50 C0 80 20 100 50 100 L70 100 C100 100 120 80 120 50 C120 20 100 0 70 0 Z" 
+          fill="#804dee" stroke="#6535be" stroke-width="3"/>
+    
+    <!-- Botones del control -->
+    <circle cx="85" cy="30" r="8" fill="#6535be"/>
+    <circle cx="100" cy="45" r="8" fill="#6535be"/>
+    <circle cx="85" cy="60" r="8" fill="#6535be"/>
+    <circle cx="70" cy="45" r="8" fill="#6535be"/>
+    
+    <!-- D-pad -->
+    <rect x="20" y="35" width="30" height="10" rx="2" fill="#6535be"/>
+    <rect x="30" y="25" width="10" height="30" rx="2" fill="#6535be"/>
+  </g>
+  
+  <!-- Elementos de código -->
+  <g transform="translate(80, 240)">
+    <rect x="0" y="0" width="160" height="20" rx="5" fill="#6535be" opacity="0.6"/>
+    <rect x="20" y="30" width="120" height="20" rx="5" fill="#6535be" opacity="0.4"/>
+    <rect x="40" y="60" width="80" height="20" rx="5" fill="#6535be" opacity="0.2"/>
+  </g>
+  
+  <!-- Texto CSR estilizado -->
+  <g transform="translate(110, 150)">
+    <text font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#ffffff">
+      <tspan x="0" y="0">CSR</tspan>
+    </text>
+  </g>
+</svg>
